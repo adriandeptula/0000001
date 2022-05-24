@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap?$staticlink$');
 
 * {
     margin: 0;
@@ -116,7 +116,7 @@ body {
 }
 
 .benefits__item::before {
-    content: url('/assets/check-item.png');
+    content: url('../assets/check-item.png?$staticlink$');
     position: absolute;
     left: -50px;
 }
